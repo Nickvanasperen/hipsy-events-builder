@@ -10,7 +10,7 @@
  * Plugin Name:   Hipsy Events Builder
  * Plugin URI:    https://hipsy.nl
  * Description:   Professional event builder plugin voor WordPress. Builder-onafhankelijk met Elementor-first approach. Sync Hipsy events en creëer custom event designs met filters, responsive layouts en carousel support.
- * Version:       4.5.1
+ * Version:       4.5.2
  * Author:        How About Yes
  * Author URI:    https://howaboutyes.com
  * Text Domain:   hipsy-events
