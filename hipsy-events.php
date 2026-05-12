@@ -4,15 +4,15 @@
  * Hipsy Events Core
  *
  * @package       HIPSY
- * @author        How About Yes
+ * @author        Young Soul Business & How About Yes
  *
  * @wordpress-plugin
  * Plugin Name:   Hipsy Events Core
- * Plugin URI:    https://hipsy.nl
+ * Plugin URI:    https://www.youngsoulsbusiness.com
  * Description:   Core plugin voor Hipsy Events. Verzorgt API-koppeling, event sync, custom post type, instellingen en builder-onafhankelijke event data voor WordPress.
  * Version:       4.6.5
- * Author:        How About Yes
- * Author URI:    https://howaboutyes.com
+ * Author:        Young Soul Business & How About Yes
+ * Author URI:    https://www.youngsoulsbusiness.com
  * Text Domain:   hipsy-events
  */
 
