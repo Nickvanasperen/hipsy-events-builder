@@ -35,8 +35,8 @@ $hipsy_puc_file = plugin_dir_path( __FILE__ ) . 'plugin-update-checker/plugin-up
 if ( file_exists( $hipsy_puc_file ) ) {
     require_once $hipsy_puc_file;
 
-    if ( class_exists( '\\YahnisElsts\\PluginUpdateChecker\\v5\\PucFactory' ) ) {
-        \\YahnisElsts\\PluginUpdateChecker\\v5\\PucFactory::buildUpdateChecker(
+    if ( class_exists( '\YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ) {
+        \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
             'https://github.com/Nickvanasperen/hipsy-events-core/',
             __FILE__,
             'hipsy-events-core'
