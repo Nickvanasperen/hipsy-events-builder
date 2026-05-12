@@ -10,11 +10,25 @@
  * Plugin Name:   Hipsy Events Core
  * Plugin URI:    https://hipsy.nl
  * Description:   Core plugin voor Hipsy Events. Verzorgt API-koppeling, event sync, custom post type, instellingen en builder-onafhankelijke event data voor WordPress.
- * Version:       4.6.0
+ * Version:       4.6.1
  * Author:        How About Yes
  * Author URI:    https://howaboutyes.com
  * Text Domain:   hipsy-events
  */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+if ( ! defined( 'HIPSY_EVENTS_CORE_VERSION' ) ) {
+    define( 'HIPSY_EVENTS_CORE_VERSION', '4.6.1' );
+}
+
+if ( ! defined( 'HIPSY_EVENTS_CORE_PATH' ) ) {
+    define( 'HIPSY_EVENTS_CORE_PATH', plugin_dir_path( __FILE__ ) );
+}
+
+if ( ! defined( 'HIPSY_EVENTS_CORE_URL' ) ) {
+    define( 'HIPSY_EVENTS_CORE_URL', plugin_dir_url( __FILE__ ) );
+}
 
 // Plugin Update Checker
 require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
